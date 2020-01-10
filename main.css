@@ -1,0 +1,47 @@
+﻿body {
+    background-image: url('./bg-server.jpg');
+    background-attachment: fixed;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: .7px;
+    color: #f8f9fa;
+    line-height: 1.7;
+}
+
+h1, h2 {
+        letter-spacing: 0.2rem;
+}
+
+h3 {
+    letter-spacing: 0.1rem;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Source Serif Pro', serif;
+    padding-bottom: 1.5rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: none;
+        letter-spacing: 0;
+        padding-bottom: 0;
+    }
+
+    .display-4 {
+        margin-top: 2rem;
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+    }
+}
+
+#plmr {
+    position: fixed;
+    z-index: 5;
+    top: 70px;
+    left: -50px;
+    height: 35px;
+    width: 35px;
+}
